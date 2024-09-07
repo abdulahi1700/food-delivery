@@ -1,4 +1,4 @@
-import Header from "../../components/navbar/header/Header";
+import Header from "../../components/header/Header";
 import "./Home.css";
 
 const Home = () => {
