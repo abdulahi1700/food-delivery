@@ -36,3 +36,21 @@
   border: none;
   cursor: pointer;
 }
+
+@media (max-width: 1050px) {
+  .header-container {
+    max-width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .header-container {
+    max-width: 65%;
+  }
+  .header-container p {
+    display: none;
+  }
+  .header-container button {
+    padding: 2vw 4vw;
+  }
+}
